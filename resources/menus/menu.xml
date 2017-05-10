@@ -1,0 +1,6 @@
+<menu id="MenuLayout" title="@Strings.menuTitle">
+	<menu-item id="Reset">@Strings.menuResetLabel</menu-item>
+	<menu-item id="SetGoal">@Strings.menuSetGoalLabel</menu-item>
+	<menu-item id="SwitchUnits">@Strings.menuSwitchUnitsLabel</menu-item>
+	<menu-item id="Back">@Strings.menuBackLabel</menu-item>	
+</menu>

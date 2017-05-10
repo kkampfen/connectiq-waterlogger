@@ -1,0 +1,14 @@
+<strings>
+    // App Name
+    <string id="AppName">WaterLogger</string>
+    
+    // Menu
+    <string id="menuTitle">Menu</string>
+    <string id="menuResetLabel">Reset</string>
+    <string id="menuSetGoalLabel">Set Goal</string>
+    <string id="menuSwitchUnitsLabel">Switch oz/ml</string>
+    <string id="menuBackLabel">Back</string>
+    
+    // Goal Setter
+    <string id="goalSetterTitle">Set Goal</string>
+</strings>
