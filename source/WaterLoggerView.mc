@@ -120,6 +120,10 @@ class WaterLoggerView extends Ui.View {
 				dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLUE);
 				dc.drawArc(dcWidth / 2, dcHeight / 2, dcWidth / 2 - 10, Gfx.ARC_COUNTER_CLOCKWISE, 190, endAngle); 
 			}
+			
+			// Draw goal text to screen
+			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+			dc.drawText(dcWidth / 2, goalRow, Gfx.FONT_SYSTEM_TINY, goalText, Gfx.TEXT_JUSTIFY_CENTER);
 		}
 		
 		if (canvasSemiRound) {
@@ -169,6 +173,10 @@ class WaterLoggerView extends Ui.View {
 				dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLUE);
         		dc.fillRectangle((dcWidth - baseBarWidth) / 2, progBarRow, progBarWidth, 20);
 			}
+			
+			// Draw goal text on progress bar
+			dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+			dc.drawText(dcWidth / 2, goalRow, Gfx.FONT_SYSTEM_TINY, goalText, Gfx.TEXT_JUSTIFY_CENTER);
 		} 
 				
 		// Draw title to screen
@@ -187,10 +195,6 @@ class WaterLoggerView extends Ui.View {
 		
 		// Draw logo to screen
 		dc.drawBitmap(logoCol, logoRow, logo);
-		
-		// Draw goal text to screen
-		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-		dc.drawText(dcWidth / 2, goalRow, Gfx.FONT_SYSTEM_TINY, goalText, Gfx.TEXT_JUSTIFY_CENTER);
     }
 
     function onHide() {
