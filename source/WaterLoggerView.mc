@@ -28,6 +28,7 @@ class WaterLoggerView extends Ui.View {
 	
 	// Screen variables
 	var canvasRound = false;
+	var canvasRound218 = false;
 	var canvasSemiRound = false;
 	var canvasTall = false;
 	var canvasRect = false;
@@ -43,14 +44,14 @@ class WaterLoggerView extends Ui.View {
 		// Base layout variables
 		dcHeight = dc.getHeight();
         titleRow = 10;
-        countRow = dcHeight / 3;
-		countCol = dcWidth / 4 * 3;
+        countRow = dcHeight / 2 - 35;
         progBarRow = dcHeight - 25;
         goalRow = dcHeight - 25;
         dcWidth = dc.getWidth();
         logoCol = 5;
         countCol = dcWidth - 40;
         logo = Ui.loadResource(Rez.Drawables.logo);
+        logoRow = (dcHeight - logo.getWidth()) / 2;
         logoWidth = logo.getWidth();
         
         // Determine and set screen shape, orientagion, and size
@@ -62,7 +63,12 @@ class WaterLoggerView extends Ui.View {
         }
         
         if (canvasShape == 1) {
-        	canvasRound = true;
+        	if (dcHeight == 218) {
+        		canvasRound218 = true;
+        		setLayout(Rez.Layouts.MainLayout(dc));
+        	} else {
+        		canvasRound = true;
+        	}
         } else if (canvasShape == 2) {
         	canvasSemiRound = true;
         } else if (canvasShape == 3 && canvasTall) {
@@ -94,42 +100,17 @@ class WaterLoggerView extends Ui.View {
 		// Create layouts for the various screen shapes and sizes
 
 		// Round (1) Devices
-		if (canvasRound) {
+		if (canvasRound || canvasRound218) {
 			
 			// Set shape-specifc layout positions
-			if (dcHeight < 225) {
-				countRow = dcHeight / 3;
-			}
-			logoRow = countRow + 5;
 			logoCol = 20;
 			goalRow = dcHeight / 4 * 3 - 10;
-			
-			// Draw base arc
-			dc.setPenWidth(10);
-			dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_BLACK);
-			dc.drawArc(dcWidth / 2, dcHeight / 2, dcWidth / 2 - 10, Gfx.ARC_COUNTER_CLOCKWISE, 190, 350);
-			
-			// Calculate progress arc size
-			if (taps > 0) {
-				endAngle = 350;
-				if (taps < goalTaps) {
-					endAngle = 190.0 + (160.0 * progPercent);
-				}
-				
-				// Draw progress arc
-				dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLUE);
-				dc.drawArc(dcWidth / 2, dcHeight / 2, dcWidth / 2 - 10, Gfx.ARC_COUNTER_CLOCKWISE, 190, endAngle); 
-			}
-			
-			// Draw goal text to screen
-			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-			dc.drawText(dcWidth / 2, goalRow, Gfx.FONT_SYSTEM_TINY, goalText, Gfx.TEXT_JUSTIFY_CENTER);
 		}
 		
+		// Semi-Round (2) Devices
 		if (canvasSemiRound) {
 			
 			// Set shape-specific layout positions
-			logoRow = countRow + 20;
 			logoCol = 25;
 			
 			// Set progress bar width
@@ -137,6 +118,7 @@ class WaterLoggerView extends Ui.View {
 			progBarWidth = baseBarWidth;
 		}
 		
+		// Rectangle (3) Devices
 		if (canvasRectTall) {
 			
 			// Set shape-specific layout positions
@@ -151,14 +133,15 @@ class WaterLoggerView extends Ui.View {
 		if (canvasRect) {
 			
 			// Set shape-specific layout positions
-			logoRow = dcHeight / 3 + 10;
-			logoCol = 10;
+			logoCol = 5;
+			countCol = dcWidth - 35;
 			
 			// Set progress bar width
 			baseBarWidth = dcWidth - 10;
 			progBarWidth = baseBarWidth;
 		}
-		
+				
+		// Progress Bar for All Rectangular and Semi-Round Devices
 		if (canvasSemiRound || canvasRectTall || canvasRect) {
 			
 			// Draw base bar
@@ -180,21 +163,56 @@ class WaterLoggerView extends Ui.View {
 		} 
 				
 		// Draw title to screen
-		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
 		dc.drawText(dcWidth / 2, titleRow, Gfx.FONT_SMALL, "WaterLogger", Gfx.TEXT_JUSTIFY_CENTER);
-
-		// Draw count text to screen
-		if (dcWidth < 205 || canvasSemiRound) {
-			dc.drawText(countCol, countRow, Gfx.FONT_NUMBER_HOT, count, Gfx.TEXT_JUSTIFY_RIGHT);
-		} else {
-			dc.drawText(countCol, countRow, Gfx.FONT_NUMBER_THAI_HOT, count, Gfx.TEXT_JUSTIFY_RIGHT);
-		}
-		
-		// Draw unit text to screen	
-		dc.drawText(countCol + 5, countRow, Gfx.FONT_MEDIUM, unitText, Gfx.TEXT_JUSTIFY_LEFT);
 		
 		// Draw logo to screen
 		dc.drawBitmap(logoCol, logoRow, logo);
+		
+		// Draw count text and unit text
+		if (canvasRound) {
+			drawProgressArc(dc);
+			dc.drawText(countCol, countRow, Gfx.FONT_NUMBER_THAI_HOT, count, Gfx.TEXT_JUSTIFY_RIGHT);
+			dc.drawText(countCol + 5, countRow, Gfx.FONT_MEDIUM, unitText, Gfx.TEXT_JUSTIFY_LEFT);
+		} else if (canvasRound218) {
+			findDrawableById("app_title").setText("WaterLogger");
+			findDrawableById("count_text").setText(count.toString());
+			findDrawableById("unit_text").setText(unitText);
+			View.onUpdate(dc);
+			dc.drawBitmap(logoCol, logoRow, logo);
+			drawProgressArc(dc);
+		} else {
+			if (dcWidth < 205 || canvasSemiRound) {
+				dc.drawText(countCol, countRow, Gfx.FONT_NUMBER_HOT, count, Gfx.TEXT_JUSTIFY_RIGHT);
+			} else {
+				dc.drawText(countCol, countRow, Gfx.FONT_NUMBER_THAI_HOT, count, Gfx.TEXT_JUSTIFY_RIGHT);
+			}
+			
+			dc.drawText(countCol + 5, countRow, Gfx.FONT_MEDIUM, unitText, Gfx.TEXT_JUSTIFY_LEFT);
+		}
+    }
+    
+    function drawProgressArc(dc) {
+		// Draw base arc
+		dc.setPenWidth(10);
+		dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_BLACK);
+		dc.drawArc(dcWidth / 2, dcHeight / 2, dcWidth / 2 - 10, Gfx.ARC_COUNTER_CLOCKWISE, 190, 350);
+			
+		// Calculate progress arc size
+		if (taps > 0) {
+			endAngle = 350;
+			if (taps < goalTaps) {
+				endAngle = 190.0 + (160.0 * progPercent);
+			}
+			
+			// Draw progress arc
+			dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLUE);
+			dc.drawArc(dcWidth / 2, dcHeight / 2, dcWidth / 2 - 10, Gfx.ARC_COUNTER_CLOCKWISE, 190, endAngle); 
+		}
+			
+		// Draw goal text to screen
+		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+		dc.drawText(dcWidth / 2, goalRow, Gfx.FONT_SYSTEM_TINY, goalText, Gfx.TEXT_JUSTIFY_CENTER);    
     }
 
     function onHide() {

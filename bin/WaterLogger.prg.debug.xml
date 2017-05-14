@@ -1,327 +1,355 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="36" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="37" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="41" pc="268435479" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="44" pc="268435483" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="45" pc="268435502" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="46" pc="268435515" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="47" pc="268435537" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="48" pc="268435565" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="49" pc="268435587" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="50" pc="268435609" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="51" pc="268435628" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="52" pc="268435641" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="53" pc="268435663" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="54" pc="268435706" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="57" pc="268435731" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="58" pc="268435748" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="60" pc="268435764" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="61" pc="268435784" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="64" pc="268435797" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="65" pc="268435814" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="67" pc="268435844" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="69" pc="268435888" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="71" pc="268435901" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="75" pc="268435912" symbol="onShow"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="79" pc="268435917" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="82" pc="268435921" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="83" pc="268435961" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="86" pc="268435973" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="87" pc="268435998" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="88" pc="268436029" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="89" pc="268436042" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="90" pc="268436059" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="92" pc="268436075" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="97" pc="268436121" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="100" pc="268436132" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="101" pc="268436149" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="103" pc="268436174" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="104" pc="268436196" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="105" pc="268436209" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="108" pc="268436243" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="109" pc="268436260" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="110" pc="268436296" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="113" pc="268436378" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="114" pc="268436395" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="115" pc="268436408" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="116" pc="268436428" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="120" pc="268436459" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="121" pc="268436495" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="125" pc="268436586" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="128" pc="268436597" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="129" pc="268436619" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="132" pc="268436632" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="133" pc="268436654" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="136" pc="268436673" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="139" pc="268436684" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="140" pc="268436718" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="143" pc="268436749" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="144" pc="268436771" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="147" pc="268436790" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="150" pc="268436801" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="151" pc="268436829" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="154" pc="268436842" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="155" pc="268436864" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="158" pc="268436883" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="161" pc="268436922" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="162" pc="268436958" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="165" pc="268437014" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="166" pc="268437031" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="167" pc="268437051" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="169" pc="268437085" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="170" pc="268437121" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="175" pc="268437183" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="176" pc="268437219" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="179" pc="268437282" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="180" pc="268437313" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="182" pc="268437376" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="186" pc="268437436" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="189" pc="268437502" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="192" pc="268437538" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="193" pc="268437574" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="196" pc="268437641" symbol="onHide"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="5" pc="268437646" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="6" pc="268437650" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="9" pc="268437669" symbol="onMenuItem"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="10" pc="268437673" symbol="onMenuItem"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="11" pc="268437684" symbol="onMenuItem"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="14" pc="268437700" symbol="onMenuItem"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="15" pc="268437711" symbol="onMenuItem"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="18" pc="268437786" symbol="onMenuItem"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="19" pc="268437797" symbol="onMenuItem"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="20" pc="268437809" symbol="onMenuItem"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="21" pc="268437819" symbol="onMenuItem"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="23" pc="268437835" symbol="onMenuItem"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="24" pc="268437845" symbol="onMenuItem"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="6" pc="268437862" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="7" pc="268437866" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="10" pc="268437889" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="11" pc="268437893" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="12" pc="268437905" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="15" pc="268437909" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="16" pc="268437913" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="17" pc="268437926" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="18" pc="268437965" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="19" pc="268437977" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="21" pc="268438001" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="22" pc="268438013" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="24" pc="268438019" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="27" pc="268438023" symbol="takeDrink"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="28" pc="268438027" symbol="takeDrink"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="29" pc="268438046" symbol="takeDrink"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="30" pc="268438058" symbol="takeDrink"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="33" pc="268438075" symbol="onMenu"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="34" pc="268438079" symbol="onMenu"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="35" pc="268438163" symbol="onMenu"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="38" pc="268438167" symbol="checkGoal"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="39" pc="268438171" symbol="checkGoal"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="40" pc="268438191" symbol="checkGoal"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="41" pc="268438206" symbol="checkGoal"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="42" pc="268438258" symbol="checkGoal"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="45" pc="268438279" symbol="checkGoal"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="46" pc="268438294" symbol="checkGoal"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="13" pc="268438322" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="14" pc="268438326" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="18" pc="268438349" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="25" pc="268438353" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="26" pc="268438377" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="27" pc="268438390" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="31" pc="268438403" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="32" pc="268438427" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="33" pc="268438440" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="37" pc="268438456" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="38" pc="268438480" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="39" pc="268438493" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="43" pc="268438509" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="44" pc="268438533" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="45" pc="268438546" symbol="onStart"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="52" pc="268438563" symbol="onStop"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="53" pc="268438567" symbol="onStop"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="54" pc="268438592" symbol="onStop"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="55" pc="268438617" symbol="onStop"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="56" pc="268438642" symbol="onStop"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="60" pc="268438668" symbol="getInitialView"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="61" pc="268438672" symbol="getInitialView"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="27" pc="268438740" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="28" pc="268438744" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="31" pc="268438763" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="32" pc="268438767" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="33" pc="268438790" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="34" pc="268438809" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="35" pc="268438822" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="36" pc="268438844" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="37" pc="268438863" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="38" pc="268438891" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="39" pc="268438913" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="40" pc="268438941" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="42" pc="268438957" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="43" pc="268438980" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="46" pc="268438993" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="47" pc="268439039" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="50" pc="268439052" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="51" pc="268439069" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="52" pc="268439112" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="53" pc="268439155" symbol="onLayout"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="57" pc="268439181" symbol="onShow"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="60" pc="268439186" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="61" pc="268439190" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="62" pc="268439226" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="64" pc="268439238" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="66" pc="268439263" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="67" pc="268439299" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="69" pc="268439362" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="70" pc="268439393" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="72" pc="268439456" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="74" pc="268439516" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="76" pc="268439588" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="77" pc="268439605" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="78" pc="268439616" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="79" pc="268439670" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="80" pc="268439733" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="82" pc="268439772" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="83" pc="268439832" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="84" pc="268439895" symbol="onUpdate"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="89" pc="268439977" symbol="onHide"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="102" pc="268439982" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="103" pc="268439986" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="104" pc="268440004" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="105" pc="268440027" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="106" pc="268440049" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="107" pc="268440071" symbol="initialize"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="110" pc="268440100" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="111" pc="268440104" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="112" pc="268440117" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="113" pc="268440135" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="114" pc="268440147" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="116" pc="268440171" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="117" pc="268440183" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="119" pc="268440228" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="120" pc="268440244" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="121" pc="268440272" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="123" pc="268440296" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="124" pc="268440324" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="126" pc="268440330" symbol="onKey"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="129" pc="268440334" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="130" pc="268440338" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="131" pc="268440351" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="132" pc="268440371" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="133" pc="268440383" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="135" pc="268440432" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="136" pc="268440448" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="137" pc="268440476" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="139" pc="268440502" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="140" pc="268440514" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="142" pc="268440520" symbol="onTap"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="145" pc="268440524" symbol="tempGoalDown"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="146" pc="268440528" symbol="tempGoalDown"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="147" pc="268440545" symbol="tempGoalDown"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="149" pc="268440567" symbol="tempGoalDown"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="151" pc="268440580" symbol="tempGoalDown"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="154" pc="268440597" symbol="tempGoalUp"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="155" pc="268440601" symbol="tempGoalUp"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="156" pc="268440618" symbol="tempGoalUp"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="158" pc="268440640" symbol="tempGoalUp"/>
-<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="160" pc="268440653" symbol="tempGoalUp"/>
-<entry filename="Rez" lineNum="18" pc="268440670" symbol="initialize"/>
-<entry filename="Rez" lineNum="19" pc="268440674" symbol="initialize"/>
-<entry filename="Rez" lineNum="20" pc="268440692" symbol="initialize"/>
-<entry filename="Rez" lineNum="20" pc="268440745" symbol="initialize"/>
-<entry filename="Rez" lineNum="21" pc="268440797" symbol="initialize"/>
-<entry filename="Rez" lineNum="22" pc="268440849" symbol="initialize"/>
-<entry filename="Rez" lineNum="23" pc="268440901" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="37" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="38" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="42" pc="268435479" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="45" pc="268435483" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="46" pc="268435502" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="47" pc="268435515" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="48" pc="268435543" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="49" pc="268435565" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="50" pc="268435587" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="51" pc="268435606" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="52" pc="268435619" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="53" pc="268435641" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="54" pc="268435684" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="55" pc="268435724" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="58" pc="268435749" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="59" pc="268435766" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="61" pc="268435782" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="62" pc="268435802" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="65" pc="268435815" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="66" pc="268435832" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="67" pc="268435849" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="68" pc="268435859" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="70" pc="268435899" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="73" pc="268435929" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="75" pc="268435973" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="77" pc="268435986" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="81" pc="268435997" symbol="onShow"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="85" pc="268436002" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="88" pc="268436006" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="89" pc="268436046" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="92" pc="268436058" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="93" pc="268436083" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="94" pc="268436114" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="95" pc="268436127" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="96" pc="268436144" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="98" pc="268436160" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="103" pc="268436206" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="106" pc="268436231" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="107" pc="268436244" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="111" pc="268436281" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="114" pc="268436292" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="117" pc="268436305" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="118" pc="268436327" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="122" pc="268436346" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="125" pc="268436357" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="126" pc="268436391" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="129" pc="268436422" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="130" pc="268436444" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="133" pc="268436463" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="136" pc="268436474" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="137" pc="268436487" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="140" pc="268436509" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="141" pc="268436531" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="145" pc="268436550" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="148" pc="268436589" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="149" pc="268436625" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="152" pc="268436681" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="153" pc="268436698" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="154" pc="268436718" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="156" pc="268436752" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="157" pc="268436788" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="161" pc="268436847" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="162" pc="268436883" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="166" pc="268436952" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="167" pc="268436988" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="170" pc="268437051" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="173" pc="268437087" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="174" pc="268437098" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="175" pc="268437112" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="176" pc="268437172" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="178" pc="268437252" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="179" pc="268437283" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="180" pc="268437326" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="181" pc="268437360" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="182" pc="268437380" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="183" pc="268437416" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="185" pc="268437433" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="186" pc="268437464" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="188" pc="268437527" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="191" pc="268437587" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="195" pc="268437654" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="197" pc="268437658" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="198" pc="268437675" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="199" pc="268437711" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="202" pc="268437793" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="203" pc="268437810" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="204" pc="268437823" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="205" pc="268437843" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="209" pc="268437874" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="210" pc="268437910" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="214" pc="268437998" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="215" pc="268438034" symbol="drawProgressArc"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerView.mc" lineNum="218" pc="268438101" symbol="onHide"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="5" pc="268438106" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="6" pc="268438110" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="9" pc="268438129" symbol="onMenuItem"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="10" pc="268438133" symbol="onMenuItem"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="11" pc="268438144" symbol="onMenuItem"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="14" pc="268438160" symbol="onMenuItem"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="15" pc="268438171" symbol="onMenuItem"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="18" pc="268438246" symbol="onMenuItem"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="19" pc="268438257" symbol="onMenuItem"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="20" pc="268438269" symbol="onMenuItem"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="21" pc="268438279" symbol="onMenuItem"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="23" pc="268438295" symbol="onMenuItem"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerMenuDelegate.mc" lineNum="24" pc="268438305" symbol="onMenuItem"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="6" pc="268438322" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="7" pc="268438326" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="10" pc="268438349" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="11" pc="268438353" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="12" pc="268438365" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="15" pc="268438369" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="16" pc="268438373" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="17" pc="268438386" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="18" pc="268438425" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="19" pc="268438437" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="21" pc="268438461" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="22" pc="268438473" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="24" pc="268438479" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="27" pc="268438483" symbol="takeDrink"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="28" pc="268438487" symbol="takeDrink"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="29" pc="268438506" symbol="takeDrink"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="30" pc="268438518" symbol="takeDrink"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="33" pc="268438535" symbol="onMenu"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="34" pc="268438539" symbol="onMenu"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="35" pc="268438623" symbol="onMenu"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="38" pc="268438627" symbol="checkGoal"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="39" pc="268438631" symbol="checkGoal"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="40" pc="268438651" symbol="checkGoal"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="41" pc="268438666" symbol="checkGoal"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="42" pc="268438718" symbol="checkGoal"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="45" pc="268438739" symbol="checkGoal"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerDelegate.mc" lineNum="46" pc="268438754" symbol="checkGoal"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="13" pc="268438782" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="14" pc="268438786" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="18" pc="268438809" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="25" pc="268438813" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="26" pc="268438837" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="27" pc="268438850" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="31" pc="268438863" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="32" pc="268438887" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="33" pc="268438900" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="37" pc="268438916" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="38" pc="268438940" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="39" pc="268438953" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="43" pc="268438969" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="44" pc="268438993" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="45" pc="268439006" symbol="onStart"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="52" pc="268439023" symbol="onStop"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="53" pc="268439027" symbol="onStop"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="54" pc="268439052" symbol="onStop"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="55" pc="268439077" symbol="onStop"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="56" pc="268439102" symbol="onStop"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="60" pc="268439128" symbol="getInitialView"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\WaterLoggerApp.mc" lineNum="61" pc="268439132" symbol="getInitialView"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="27" pc="268439200" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="28" pc="268439204" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="31" pc="268439223" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="32" pc="268439227" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="33" pc="268439250" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="34" pc="268439269" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="35" pc="268439282" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="36" pc="268439304" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="37" pc="268439323" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="38" pc="268439351" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="39" pc="268439373" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="40" pc="268439401" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="42" pc="268439417" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="43" pc="268439440" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="46" pc="268439453" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="47" pc="268439499" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="50" pc="268439512" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="51" pc="268439529" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="52" pc="268439572" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="53" pc="268439615" symbol="onLayout"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="57" pc="268439641" symbol="onShow"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="60" pc="268439646" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="61" pc="268439650" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="62" pc="268439686" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="64" pc="268439698" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="66" pc="268439723" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="67" pc="268439759" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="69" pc="268439822" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="70" pc="268439853" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="72" pc="268439916" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="74" pc="268439976" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="76" pc="268440048" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="77" pc="268440065" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="78" pc="268440076" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="79" pc="268440130" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="80" pc="268440193" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="82" pc="268440232" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="83" pc="268440292" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="84" pc="268440355" symbol="onUpdate"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="89" pc="268440437" symbol="onHide"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="102" pc="268440442" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="103" pc="268440446" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="104" pc="268440464" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="105" pc="268440487" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="106" pc="268440509" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="107" pc="268440531" symbol="initialize"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="110" pc="268440560" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="111" pc="268440564" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="112" pc="268440577" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="113" pc="268440595" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="114" pc="268440607" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="116" pc="268440631" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="117" pc="268440643" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="119" pc="268440688" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="120" pc="268440704" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="121" pc="268440732" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="123" pc="268440756" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="124" pc="268440784" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="126" pc="268440790" symbol="onKey"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="129" pc="268440794" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="130" pc="268440798" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="131" pc="268440811" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="132" pc="268440831" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="133" pc="268440843" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="135" pc="268440892" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="136" pc="268440908" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="137" pc="268440936" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="139" pc="268440962" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="140" pc="268440974" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="142" pc="268440980" symbol="onTap"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="145" pc="268440984" symbol="tempGoalDown"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="146" pc="268440988" symbol="tempGoalDown"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="147" pc="268441005" symbol="tempGoalDown"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="149" pc="268441027" symbol="tempGoalDown"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="151" pc="268441040" symbol="tempGoalDown"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="154" pc="268441057" symbol="tempGoalUp"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="155" pc="268441061" symbol="tempGoalUp"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="156" pc="268441078" symbol="tempGoalUp"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="158" pc="268441100" symbol="tempGoalUp"/>
+<entry filename="C:\\Dev\\MonkeyC\\Projects\\WaterLogger\\source\\GoalSetter.mc" lineNum="160" pc="268441113" symbol="tempGoalUp"/>
+<entry filename="Rez" lineNum="18" pc="268441130" symbol="initialize"/>
+<entry filename="Rez" lineNum="19" pc="268441134" symbol="initialize"/>
+<entry filename="Rez" lineNum="20" pc="268441152" symbol="initialize"/>
+<entry filename="Rez" lineNum="20" pc="268441205" symbol="initialize"/>
+<entry filename="Rez" lineNum="21" pc="268441257" symbol="initialize"/>
+<entry filename="Rez" lineNum="22" pc="268441309" symbol="initialize"/>
+<entry filename="Rez" lineNum="23" pc="268441361" symbol="initialize"/>
+<entry filename="Rez" lineNum="41" pc="268441414" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="43" pc="268441418" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="44" pc="268441531" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="45" pc="268441644" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="48" pc="268441757" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="8389671" symbol="screenWidth"/>
 <entry id="8388987" symbol="vibrate"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
 <entry id="8389097" method="true" symbol="onKey"/>
 <entry field="true" id="8388611" symbol="Toybox"/>
-<entry field="true" id="47" symbol="progBarWidth"/>
-<entry field="true" id="27" symbol="goalSetterTitle"/>
+<entry field="true" id="48" symbol="progBarWidth"/>
+<entry field="true" id="28" symbol="goalSetterTitle"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry field="true" id="16" symbol="taps"/>
 <entry field="true" id="23" symbol="upButton"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry field="true" id="52" symbol="canvasRound"/>
-<entry field="true" id="48" symbol="progPercent"/>
+<entry id="59" method="true" symbol="drawProgressArc"/>
+<entry field="true" id="53" symbol="canvasRound"/>
+<entry id="27" method="true" symbol="MainLayout"/>
+<entry field="true" id="49" symbol="progPercent"/>
 <entry id="8388769" module="true" symbol="Rez"/>
-<entry field="true" id="31" symbol="menuSwitchUnitsLabel"/>
-<entry field="true" id="57" symbol="goalCol"/>
+<entry field="true" id="32" symbol="menuSwitchUnitsLabel"/>
+<entry field="true" id="60" symbol="goalCol"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="28" symbol="menuTitle"/>
-<entry field="true" id="58" symbol="firstSeparator"/>
-<entry field="true" id="44" symbol="countCol"/>
+<entry field="true" id="29" symbol="menuTitle"/>
+<entry field="true" id="61" symbol="firstSeparator"/>
+<entry field="true" id="45" symbol="countCol"/>
 <entry field="true" id="12" symbol="unitText"/>
 <entry id="8389098" method="true" symbol="onTap"/>
 <entry id="18" object="true" symbol="GoalSetter"/>
-<entry id="68" symbol="Back"/>
-<entry field="true" id="36" symbol="dcHeight"/>
+<entry id="71" symbol="Back"/>
+<entry field="true" id="37" symbol="dcHeight"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="62" symbol="tempGoalCount"/>
-<entry field="true" id="43" symbol="logoCol"/>
-<entry field="true" id="33" symbol="AppName"/>
-<entry id="34" method="true" symbol="takeDrink"/>
+<entry field="true" id="65" symbol="tempGoalCount"/>
+<entry field="true" id="44" symbol="logoCol"/>
+<entry field="true" id="34" symbol="AppName"/>
+<entry id="35" method="true" symbol="takeDrink"/>
 <entry id="9" object="true" symbol="WaterLoggerMenuDelegate"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry field="true" id="11" symbol="metric"/>
 <entry id="8" object="true" symbol="WaterLoggerView"/>
+<entry field="true" id="54" symbol="canvasRound218"/>
 <entry field="true" id="25" symbol="LauncherIcon"/>
-<entry field="true" id="56" symbol="canvasRectTall"/>
-<entry field="true" id="50" symbol="goalText"/>
+<entry field="true" id="58" symbol="canvasRectTall"/>
+<entry field="true" id="51" symbol="goalText"/>
 <entry field="true" id="22" symbol="logo"/>
-<entry field="true" id="61" symbol="deviceSettings"/>
+<entry field="true" id="64" symbol="deviceSettings"/>
 <entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389065" symbol="locY"/>
+<entry id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="64" method="true" symbol="tempGoalUp"/>
-<entry field="true" id="40" symbol="goalRow"/>
+<entry id="67" method="true" symbol="tempGoalUp"/>
+<entry field="true" id="41" symbol="goalRow"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="66" symbol="SetGoal"/>
-<entry field="true" id="38" symbol="countRow"/>
+<entry id="69" symbol="SetGoal"/>
+<entry field="true" id="39" symbol="countRow"/>
 <entry id="8388985" symbol="playTone"/>
-<entry field="true" id="32" symbol="menuSetGoalLabel"/>
-<entry field="true" id="30" symbol="menuResetLabel"/>
+<entry field="true" id="33" symbol="menuSetGoalLabel"/>
+<entry field="true" id="31" symbol="menuResetLabel"/>
 <entry id="19" object="true" symbol="GoalSetterDelegate"/>
-<entry field="true" id="45" symbol="canvasShape"/>
+<entry id="8389348" symbol="font"/>
+<entry field="true" id="46" symbol="canvasShape"/>
 <entry id="10" object="true" symbol="WaterLoggerDelegate"/>
-<entry field="true" id="51" symbol="endAngle"/>
-<entry field="true" id="29" symbol="menuBackLabel"/>
-<entry field="true" id="39" symbol="logoRow"/>
-<entry field="true" id="49" symbol="logoWidth"/>
-<entry id="63" method="true" symbol="tempGoalDown"/>
+<entry field="true" id="52" symbol="endAngle"/>
+<entry field="true" id="30" symbol="menuBackLabel"/>
+<entry field="true" id="40" symbol="logoRow"/>
+<entry field="true" id="50" symbol="logoWidth"/>
+<entry id="66" method="true" symbol="tempGoalDown"/>
 <entry id="26" object="true" symbol="MenuLayout"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
-<entry field="true" id="54" symbol="canvasTall"/>
-<entry field="true" id="42" symbol="dcWidth"/>
-<entry id="67" symbol="SwitchUnits"/>
+<entry field="true" id="56" symbol="canvasTall"/>
+<entry field="true" id="43" symbol="dcWidth"/>
+<entry id="70" symbol="SwitchUnits"/>
 <entry id="21" module="true" symbol="Layouts"/>
-<entry id="35" method="true" symbol="checkGoal"/>
+<entry id="36" method="true" symbol="checkGoal"/>
 <entry field="true" id="13" symbol="unitMultiplier"/>
 <entry field="true" id="24" symbol="downButton"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="60" symbol="controlsRow"/>
+<entry field="true" id="63" symbol="controlsRow"/>
 <entry id="17" object="true" symbol="WaterLoggerApp"/>
-<entry field="true" id="41" symbol="progBarRow"/>
+<entry field="true" id="42" symbol="progBarRow"/>
 <entry field="true" id="14" symbol="goalTaps"/>
-<entry field="true" id="53" symbol="canvasSemiRound"/>
+<entry field="true" id="55" symbol="canvasSemiRound"/>
 <entry field="true" id="8389850" symbol="count"/>
-<entry id="65" symbol="Reset"/>
-<entry field="true" id="46" symbol="baseBarWidth"/>
-<entry field="true" id="37" symbol="titleRow"/>
+<entry id="8389063" symbol="identifier"/>
+<entry id="68" symbol="Reset"/>
+<entry field="true" id="47" symbol="baseBarWidth"/>
+<entry field="true" id="38" symbol="titleRow"/>
 <entry id="20" module="true" symbol="Menus"/>
 <entry field="true" id="15" symbol="tempGoalTaps"/>
-<entry field="true" id="55" symbol="canvasRect"/>
+<entry field="true" id="57" symbol="canvasRect"/>
 <entry id="8388772" module="true" symbol="Fonts"/>
-<entry field="true" id="59" symbol="secondSeparator"/>
+<entry field="true" id="62" symbol="secondSeparator"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435911" name="deviceSettings" stackId="2" startPc="268435483"/>
-<entry endPc="268438022" name="key" stackId="2" startPc="268437913"/>
-<entry endPc="268438276" name="vibe" stackId="1" startPc="268438206"/>
-<entry endPc="268440333" name="key" stackId="2" startPc="268440104"/>
-<entry endPc="268440523" name="xyTap" stackId="2" startPc="268440338"/>
+<entry endPc="268435996" name="deviceSettings" stackId="2" startPc="268435483"/>
+<entry endPc="268438482" name="key" stackId="2" startPc="268438373"/>
+<entry endPc="268438736" name="vibe" stackId="1" startPc="268438666"/>
+<entry endPc="268440793" name="key" stackId="2" startPc="268440564"/>
+<entry endPc="268440983" name="xyTap" stackId="2" startPc="268440798"/>
+<entry endPc="268441794" name="rez_cmp_local_bitmap_unit_text" stackId="4" startPc="268441418"/>
+<entry endPc="268441794" name="rez_cmp_local_bitmap_app_title" stackId="2" startPc="268441418"/>
+<entry endPc="268441794" name="rez_cmp_local_bitmap_count_text" stackId="3" startPc="268441418"/>
 </localVars>
 <annotations/>
 <functions>
@@ -336,6 +364,10 @@
 <documentation/>
 </functionEntry>
 <functionEntry name="onUpdate" parent="WaterLoggerView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawProgressArc" parent="WaterLoggerView">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
@@ -419,6 +451,10 @@
 </functionEntry>
 <functionEntry name="initialize" parent="MenuLayout">
 <documentation/>
+</functionEntry>
+<functionEntry name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
 </functionEntry>
 </functions>
 </debugInfo>

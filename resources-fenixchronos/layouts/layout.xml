@@ -1,0 +1,5 @@
+<layout id="MainLayout">
+    <label id="app_title" x="109" y="10" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="count_text" x="178" y="75" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+    <label id="unit_text" x="183" y="75" justification="Gfx.TEXT_JUSTIFY_LEFT" font="Gfx.FONT_MEDIUM" />
+</layout>
