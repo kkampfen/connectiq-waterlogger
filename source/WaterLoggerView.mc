@@ -54,7 +54,7 @@ class WaterLoggerView extends Ui.View {
         logoRow = (dcHeight - logo.getWidth()) / 2;
         logoWidth = logo.getWidth();
         
-        // Determine and set screen shape, orientagion, and size
+        // Determine and set screen shape, orientation, and size
         var deviceSettings = Sys.getDeviceSettings();
         canvasShape = deviceSettings.screenShape;
         
@@ -91,10 +91,11 @@ class WaterLoggerView extends Ui.View {
 		// Set values for element variables
 		count = taps * unitMultiplier;
 		progPercent = 1.0 * taps / goalTaps;
-		unitText = "oz";
-		if (metric == 1) {
+		if (metric) {
 			unitText = "ml";
-		} 
+		} else {
+			unitText = "oz";
+		}
 		goalText = "Goal " + (goalTaps * unitMultiplier) + " " + unitText;
 		
 		// Create layouts for the various screen shapes and sizes

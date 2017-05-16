@@ -14,7 +14,12 @@ class GoalSetter extends Ui.View {
 	var secondSeparator = 0;
 	var controlsRow = 0;
 	var deviceSettings = null;
+	var canvasShape = 0;
+	var canvasTall = false;
+	var canvasRound = false;
+	var canvasRound218 = false;
 	var canvasSemiRound = false;
+	var canvasRect = false;
 	var canvasRectTall = false;
 	
 	// Layout elements
@@ -30,6 +35,7 @@ class GoalSetter extends Ui.View {
 	
 	function onLayout(dc) {
 		deviceSettings = Sys.getDeviceSettings();
+		canvasShape = deviceSettings.screenShape;
 		dcHeight = dc.getHeight();
 		titleRow = 10;
 		goalRow = dcHeight / 3;
@@ -39,14 +45,27 @@ class GoalSetter extends Ui.View {
 		secondSeparator = dcWidth / 3 * 2;
 		tempGoalTaps = goalTaps;
 		
-		if (deviceSettings.screenShape == 2) {
-			canvasSemiRound = true;
-		}
+		// Determine and set screen shape and size
+        if (dcHeight > dcWidth) {
+        	canvasTall = true;
+        }
+        
+        if (canvasShape == 1) {
+        	if (dcHeight == 218) {
+        		canvasRound218 = true;
+        		setLayout(Rez.Layouts.MainLayout(dc));
+        	} else {
+        		canvasRound = true;
+        	}
+        } else if (canvasShape == 2) {
+        	canvasSemiRound = true;
+        } else if (canvasShape == 3 && canvasTall) {
+        	canvasRectTall = true;
+        } else {
+        	canvasRect = true;
+        }
 		
-		if (deviceSettings.screenShape == 3 && dcWidth < dcHeight) {
-			canvasRectTall = true;
-		}
-		
+		// Determine if device has touch screen
 		if (deviceSettings.isTouchScreen) {
 			upButton = Ui.loadResource(Rez.Drawables.upButton);
 			downButton = Ui.loadResource(Rez.Drawables.downButton);
@@ -63,15 +82,35 @@ class GoalSetter extends Ui.View {
 		
 		tempGoalCount = tempGoalTaps * unitMultiplier;
 		
-		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
 		dc.drawText(dcWidth / 2, titleRow, Gfx.FONT_SMALL, "Set Goal", Gfx.TEXT_JUSTIFY_CENTER);
+		
+		if (canvasRect) {
+			goalCol = dcWidth - 35;
+		}
+		
 		// Draw count to screen
-		if (dcWidth < 205 || canvasSemiRound) {
+		if (canvasRound218) {
+			findDrawableById("app_title").setText("Set Goal");
+			findDrawableById("count_text").setText(tempGoalCount.toString());
+			findDrawableById("unit_text").setText(unitText);
+			View.onUpdate(dc);
+		} else if (dcWidth < 205 || canvasSemiRound) {
 			dc.drawText(goalCol, goalRow, Gfx.FONT_NUMBER_HOT, tempGoalCount, Gfx.TEXT_JUSTIFY_RIGHT);
+			dc.drawText(goalCol + 5, dcHeight / 3, Gfx.FONT_MEDIUM, unitText, Gfx.TEXT_JUSTIFY_LEFT);
 		} else {
 			dc.drawText(goalCol, goalRow, Gfx.FONT_NUMBER_THAI_HOT, tempGoalCount, Gfx.TEXT_JUSTIFY_RIGHT);
+			dc.drawText(goalCol + 5, dcHeight / 3, Gfx.FONT_MEDIUM, unitText, Gfx.TEXT_JUSTIFY_LEFT);
 		}
-		dc.drawText(goalCol + 5, dcHeight / 3, Gfx.FONT_MEDIUM, unitText, Gfx.TEXT_JUSTIFY_LEFT);
+		
+		if (!deviceSettings.isTouchScreen) {
+			if (!canvasRect) {
+				dc.drawText(dcWidth / 2, dcHeight / 3 * 2, Gfx.FONT_SMALL, "Press Start", Gfx.TEXT_JUSTIFY_CENTER);
+				dc.drawText(dcWidth / 2, dcHeight / 5 * 4, Gfx.FONT_SMALL, "To Set", Gfx.TEXT_JUSTIFY_CENTER);
+			} else {
+				dc.drawText(dcWidth / 2, dcHeight - 20, Gfx.FONT_SMALL, "Press Enter to Set", Gfx.TEXT_JUSTIFY_CENTER);
+			}
+		}
 		
 		if (deviceSettings.isTouchScreen) {
 			if (canvasSemiRound) {
