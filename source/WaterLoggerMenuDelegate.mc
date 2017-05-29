@@ -7,8 +7,12 @@ class WaterLoggerMenuDelegate extends Ui.BehaviorDelegate {
     }
 
     function onMenuItem(item) {
+    	if (item == :History) {
+    		Ui.pushView(new HistoryView(), new HistoryDelegate(), Ui.SLIDE_IMMEDIATE);
+    	}
+    	
         if (item == :Reset) {
-            taps = 0;
+            gTaps = 0;
         }
         
         if (item == :SetGoal) {
@@ -16,12 +20,12 @@ class WaterLoggerMenuDelegate extends Ui.BehaviorDelegate {
         }
         
         if (item == :SwitchUnits) {
-        	if (!metric) {
-        		metric = true;
-        		unitMultiplier = 125;
+        	if (!gIsMetric) {
+        		gIsMetric = true;
+        		gUnitMultiplier = 125;
         	} else {
-        		metric = false;
-        		unitMultiplier = 4;
+        		gIsMetric = false;
+        		gUnitMultiplier = 4;
         	}
         }
     }

@@ -25,7 +25,7 @@ class WaterLoggerDelegate extends Ui.BehaviorDelegate {
     }
     
     function takeDrink() {
-    	taps++;
+    	gTaps++;
     	checkGoal();
     	Ui.requestUpdate();
     }
@@ -36,7 +36,7 @@ class WaterLoggerDelegate extends Ui.BehaviorDelegate {
     }
     
  	function checkGoal() {
-		if (taps == goalTaps) {
+		if (gTaps > 0 && gTaps % gGoalTaps == 0) {
 			if (Att has :vibrate) {
 		 		var vibe = [ new Att.VibeProfile(50, 1000) ];
 				Att.vibrate(vibe);

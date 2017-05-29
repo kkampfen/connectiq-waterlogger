@@ -4,6 +4,7 @@
     
     // Menu
     <string id="menuTitle">Menu</string>
+    <string id="menuHistoryLabel">History</string>
     <string id="menuResetLabel">Reset</string>
     <string id="menuSetGoalLabel">Set Goal</string>
     <string id="menuSwitchUnitsLabel">Switch oz/ml</string>

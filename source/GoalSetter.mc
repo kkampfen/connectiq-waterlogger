@@ -2,6 +2,8 @@ using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
 
+var tempGoalTaps = 0;
+
 class GoalSetter extends Ui.View {
 	
 	// Layout vars
@@ -43,7 +45,7 @@ class GoalSetter extends Ui.View {
 		goalCol = dcWidth / 4 * 3;
 		firstSeparator = dcWidth / 3;
 		secondSeparator = dcWidth / 3 * 2;
-		tempGoalTaps = goalTaps;
+		tempGoalTaps = gGoalTaps;
 		
 		// Determine and set screen shape and size
         if (dcHeight > dcWidth) {
@@ -80,7 +82,7 @@ class GoalSetter extends Ui.View {
     	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
     	dc.clear();		
 		
-		tempGoalCount = tempGoalTaps * unitMultiplier;
+		tempGoalCount = tempGoalTaps * gUnitMultiplier;
 		
 		dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
 		dc.drawText(dcWidth / 2, titleRow, Gfx.FONT_SMALL, "Set Goal", Gfx.TEXT_JUSTIFY_CENTER);
@@ -93,14 +95,14 @@ class GoalSetter extends Ui.View {
 		if (canvasRound218) {
 			findDrawableById("app_title").setText("Set Goal");
 			findDrawableById("count_text").setText(tempGoalCount.toString());
-			findDrawableById("unit_text").setText(unitText);
+			findDrawableById("unit_text").setText(gUnitText);
 			View.onUpdate(dc);
 		} else if (dcWidth < 205 || canvasSemiRound) {
 			dc.drawText(goalCol, goalRow, Gfx.FONT_NUMBER_HOT, tempGoalCount, Gfx.TEXT_JUSTIFY_RIGHT);
-			dc.drawText(goalCol + 5, dcHeight / 3, Gfx.FONT_MEDIUM, unitText, Gfx.TEXT_JUSTIFY_LEFT);
+			dc.drawText(goalCol + 5, dcHeight / 3, Gfx.FONT_MEDIUM, gUnitText, Gfx.TEXT_JUSTIFY_LEFT);
 		} else {
 			dc.drawText(goalCol, goalRow, Gfx.FONT_NUMBER_THAI_HOT, tempGoalCount, Gfx.TEXT_JUSTIFY_RIGHT);
-			dc.drawText(goalCol + 5, dcHeight / 3, Gfx.FONT_MEDIUM, unitText, Gfx.TEXT_JUSTIFY_LEFT);
+			dc.drawText(goalCol + 5, dcHeight / 3, Gfx.FONT_MEDIUM, gUnitText, Gfx.TEXT_JUSTIFY_LEFT);
 		}
 		
 		if (!deviceSettings.isTouchScreen) {
@@ -155,7 +157,7 @@ class GoalSetterDelegate extends Ui.InputDelegate {
        		tempGoalDown();
        		return true;
        	} else if (key == Ui.KEY_ENTER || key == Ui.KEY_START) {
-           	goalTaps = tempGoalTaps;
+           	gGoalTaps = tempGoalTaps;
            	Ui.popView(Ui.SLIDE_IMMEDIATE);
            	return true;
        	} else if (key == Ui.KEY_ESC) {
@@ -171,7 +173,7 @@ class GoalSetterDelegate extends Ui.InputDelegate {
  			tempGoalDown();
  			return true;
  		} else if (xyTap[0] > firstSeparator && xyTap[0] < secondSeparator) {
- 			goalTaps = tempGoalTaps;
+ 			gGoalTaps = tempGoalTaps;
  			Ui.popView(Ui.SLIDE_IMMEDIATE);
  			return true;
  		} else if (xyTap[0] > secondSeparator) {

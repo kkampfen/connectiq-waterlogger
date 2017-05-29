@@ -40,7 +40,7 @@ class WaterLoggerView extends Ui.View {
 
     // Load your resources here
     function onLayout(dc) {
-    
+
 		// Base layout variables
 		dcHeight = dc.getHeight();
         titleRow = 10;
@@ -83,20 +83,20 @@ class WaterLoggerView extends Ui.View {
 
     // Update the view
     function onUpdate(dc) {
-    
+
     	// Clear the canvas
     	dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
     	dc.clear();
 				
 		// Set values for element variables
-		count = taps * unitMultiplier;
-		progPercent = 1.0 * taps / goalTaps;
-		if (metric) {
-			unitText = "ml";
+		count = gTaps * gUnitMultiplier;
+		progPercent = 1.0 * gTaps / gGoalTaps;
+		if (gIsMetric) {
+			gUnitText = "ml";
 		} else {
-			unitText = "oz";
+			gUnitText = "oz";
 		}
-		goalText = "Goal " + (goalTaps * unitMultiplier) + " " + unitText;
+		goalText = "Goal " + (gGoalTaps * gUnitMultiplier) + " " + gUnitText;
 		
 		// Create layouts for the various screen shapes and sizes
 
@@ -150,8 +150,8 @@ class WaterLoggerView extends Ui.View {
 			dc.fillRectangle((dcWidth - baseBarWidth) / 2, progBarRow, progBarWidth, 20);
         	
         	// Draw progress bar
-    		if (taps > 0) {
-				if (taps < goalTaps) {
+    		if (gTaps > 0) {
+				if (gTaps < gGoalTaps) {
 					progBarWidth = 1.0 * progPercent * progBarWidth;
 				}
 				dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLUE);
@@ -174,11 +174,11 @@ class WaterLoggerView extends Ui.View {
 		if (canvasRound) {
 			drawProgressArc(dc);
 			dc.drawText(countCol, countRow, Gfx.FONT_NUMBER_THAI_HOT, count, Gfx.TEXT_JUSTIFY_RIGHT);
-			dc.drawText(countCol + 5, countRow, Gfx.FONT_MEDIUM, unitText, Gfx.TEXT_JUSTIFY_LEFT);
+			dc.drawText(countCol + 5, countRow, Gfx.FONT_MEDIUM, gUnitText, Gfx.TEXT_JUSTIFY_LEFT);
 		} else if (canvasRound218) {
 			findDrawableById("app_title").setText("WaterLogger");
 			findDrawableById("count_text").setText(count.toString());
-			findDrawableById("unit_text").setText(unitText);
+			findDrawableById("unit_text").setText(gUnitText);
 			View.onUpdate(dc);
 			dc.drawBitmap(logoCol, logoRow, logo);
 			drawProgressArc(dc);
@@ -189,7 +189,7 @@ class WaterLoggerView extends Ui.View {
 				dc.drawText(countCol, countRow, Gfx.FONT_NUMBER_THAI_HOT, count, Gfx.TEXT_JUSTIFY_RIGHT);
 			}
 			
-			dc.drawText(countCol + 5, countRow, Gfx.FONT_MEDIUM, unitText, Gfx.TEXT_JUSTIFY_LEFT);
+			dc.drawText(countCol + 5, countRow, Gfx.FONT_MEDIUM, gUnitText, Gfx.TEXT_JUSTIFY_LEFT);
 		}
     }
     
@@ -200,9 +200,9 @@ class WaterLoggerView extends Ui.View {
 		dc.drawArc(dcWidth / 2, dcHeight / 2, dcWidth / 2 - 10, Gfx.ARC_COUNTER_CLOCKWISE, 190, 350);
 			
 		// Calculate progress arc size
-		if (taps > 0) {
+		if (gTaps > 0) {
 			endAngle = 350;
-			if (taps < goalTaps) {
+			if (gTaps < gGoalTaps) {
 				endAngle = 190.0 + (160.0 * progPercent);
 			}
 			
