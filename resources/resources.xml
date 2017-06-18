@@ -3,5 +3,7 @@
 	<bitmap id="logo_tiny" filename="images/logo_tiny.png" />
 	<bitmap id="upButton" filename="images/up.png" />
 	<bitmap id="downButton" filename="images/down.png" />
+	<bitmap id="nextButton" filename="images/next.png" />
+	<bitmap id="prevButton" filename="images/prev.png" />
 	<bitmap id="LauncherIcon" filename="images/launcher_icon.png" />
 </resources>

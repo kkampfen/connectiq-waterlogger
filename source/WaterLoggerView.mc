@@ -90,7 +90,8 @@ class WaterLoggerView extends Ui.View {
 				
 		// Set values for element variables
 		count = gTaps * gUnitMultiplier;
-		progPercent = 1.0 * gTaps / gGoalTaps;
+		progPercent = gTaps.toDouble() / gGoalTaps.toDouble();
+		progPercent = progPercent - progPercent.toLong();
 		if (gIsMetric) {
 			gUnitText = "ml";
 		} else {
@@ -150,10 +151,8 @@ class WaterLoggerView extends Ui.View {
 			dc.fillRectangle((dcWidth - baseBarWidth) / 2, progBarRow, progBarWidth, 20);
         	
         	// Draw progress bar
-    		if (gTaps > 0) {
-				if (gTaps < gGoalTaps) {
-					progBarWidth = 1.0 * progPercent * progBarWidth;
-				}
+    		if (progPercent > 0) {
+    			progBarWidth = progPercent * progBarWidth;
 				dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLUE);
         		dc.fillRectangle((dcWidth - baseBarWidth) / 2, progBarRow, progBarWidth, 20);
 			}
@@ -199,14 +198,9 @@ class WaterLoggerView extends Ui.View {
 		dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_BLACK);
 		dc.drawArc(dcWidth / 2, dcHeight / 2, dcWidth / 2 - 10, Gfx.ARC_COUNTER_CLOCKWISE, 190, 350);
 			
-		// Calculate progress arc size
-		if (gTaps > 0) {
-			endAngle = 350;
-			if (gTaps < gGoalTaps) {
-				endAngle = 190.0 + (160.0 * progPercent);
-			}
-			
-			// Draw progress arc
+		// Draw progress arc
+		if (progPercent > 0) {
+			endAngle = 190 + (160 * progPercent);			
 			dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLUE);
 			dc.drawArc(dcWidth / 2, dcHeight / 2, dcWidth / 2 - 10, Gfx.ARC_COUNTER_CLOCKWISE, 190, endAngle); 
 		}
